@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+ .tooltip-container {
+ position: relative;
+ display: inline-block;}
+.tooltip-text {
+ visibility: hidden;
+ width: 120px;
+ background-color: #000;
+ color: #fff;
+ text-align: center;
+ border-radius: 6px;
+ padding: 5px;
+ position: absolute;
+ z-index: 1;
+ top: 125%; /* Posiciona el tooltip bajo del elemento
+*/
+ left: 50%;
+ transform: translateX(-50%);
+ opacity: 0;
+ transition: opacity 0.3s;}
+.tooltip-container:hover .tooltip-text {
+ visibility: visible;
+ opacity: 1;}
+
+    </style>
+</head>
+<body>
+    <div class="tooltip-container">
+        <span class="tooltip-text">Mensaje del
+        tooltip</span>
+         Este elemento tiene un tooltip
+        </div>
+        <div style="margin-top: 20px;">
+            <a href="index.html" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; text-align: center;">Volver al Índice</a>
+        </div>
+</body>
+</html>

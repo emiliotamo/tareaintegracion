@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+
+    <style>
+        /* Contenedor 1: overflow-x: scroll */
+ .container1 {
+    width: 200px;
+    height: 100px;
+    overflow-x: scroll;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor 2: overflow-y: hidden */
+.container2 {
+    width: 300px;
+    height: 150px;
+    overflow-y: hidden;
+    border: 2px solid #555;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor 3: overflow-x: auto y overflow-y: scroll */
+.container3 {
+    width: 400px;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    border: 2px solid #777;
+    padding: 10px;
+}
+
+/* Estilo adicional para mostrar los textos claramente */
+p {
+    margin: 0;
+    line-height: 1.5;
+}
+    </style>
+</head>
+<body>
+    <h1>Ejercicio de Desbordamiento (Overflow)</h1>
+    <p>Ejemplo práctico de cómo controlar el comportamiento del contenido desbordado en un contenedor.</p>
+
+    <!-- Contenedor con overflow-x: scroll -->
+    <div class="container1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu libero et justo gravida aliquet. Sed sit amet nisl vel dui consectetur tristique non id lectus.</p>
+    </div>
+
+    <!-- Contenedor con overflow-y: hidden -->
+    <div class="container2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan ipsum ut tortor venenatis, ac ultrices mi cursus. Proin vehicula metus nec lectus cursus, at volutpat velit sagittis. Vivamus at ligula sed eros fermentum varius. Etiam sed ultricies nulla. Donec et magna ac ligula tincidunt molestie.</p>
+    </div>
+
+    <!-- Contenedor con overflow-x: auto y overflow-y: scroll -->
+    <div class="container3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc non est sollicitudin, nec tincidunt sem consectetur. Curabitur ut tincidunt augue. Sed tincidunt viverra ligula, at tincidunt arcu faucibus nec. Nam luctus augue sed augue porttitor, eget luctus nunc vehicula. Integer vel risus vel eros egestas consequat. Ut tristique justo ut facilisis facilisis. Etiam nec ipsum nec urna tristique vehicula. Quisque non ligula ac nunc vehicula vehicula ac a libero. Duis vel urna id turpis tincidunt posuere vel sit amet nulla.</p>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <a href="index.html" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; text-align: center;">Volver al Índice</a>
+    </div>
+</body>
+</html>
